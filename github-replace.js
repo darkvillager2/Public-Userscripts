@@ -2,7 +2,9 @@
 // @name        GH Markdown to HTML Image
 // @namespace   https://tampermonkey.net/
 // @match       https://*.github.com/*
-// @version     1.0.1
+// @version     1.0.0
+// @updateURL   https://raw.githubusercontent.com/darkvillager2/Public-Userscripts/refs/heads/main/github-replace.js
+// @downloadURL   https://raw.githubusercontent.com/darkvillager2/Public-Userscripts/refs/heads/main/github-replace.js
 // @author      Dark_Ville
 // @description replace markdown image with html
 // @grant       GM_addElement
