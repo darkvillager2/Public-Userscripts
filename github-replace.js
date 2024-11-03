@@ -2,7 +2,7 @@
 // @name        GH Markdown to HTML Image
 // @namespace   https://tampermonkey.net/
 // @match       https://*.github.com/*
-// @version     1.0.0
+// @version     1.0.1
 // @updateURL   https://raw.githubusercontent.com/darkvillager2/Public-Userscripts/refs/heads/main/github-replace.js
 // @downloadURL   https://raw.githubusercontent.com/darkvillager2/Public-Userscripts/refs/heads/main/github-replace.js
 // @author      Dark_Ville
@@ -33,6 +33,7 @@ function addButton() {
 		type: 'button',
 		textContent: 'Change images',
 	});
+	console.log('y');
 	document.querySelector('.customButton').addEventListener('click', replaceMD);
 }
 
